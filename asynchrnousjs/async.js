@@ -96,12 +96,10 @@ getdata()
     console.log(error);
   });
 
-// const getdata = async () => {
-
-//   return new Promise((resolve, reject) => {
-
-//     fetch("https://jsonplaceholder.typicode.com/todos").then(res => res.json()).then(data=> resolve(data))
-
-//   });
-
-// };
+const getdata1 = async () => {
+  return new Promise((resolve, reject) => {
+    fetch("https://jsonplaceholder.typicode.com/todos")
+      .then((res) => res.json())
+      .then((data) => resolve(data));
+  });
+};
