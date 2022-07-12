@@ -1,0 +1,39 @@
+.main{
+    font-size: 50px;
+    color:red
+}
+
+.error{
+    padding: 10px;
+    color: brown;
+    border: dotted brown;
+}
+
+.success{
+    padding: 10px;
+    color: green;
+    border: dotted green;
+
+}
+
+.click-me{
+    display: block;
+    padding: 20px ;
+    border:0;
+    margin: 10px auto;
+    background-color: red;
+    color: aliceblue;
+}
+.popup-main{
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.popup{
+    text-align: center;
+    margin: 10%;
+}

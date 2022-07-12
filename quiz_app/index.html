@@ -1,0 +1,116 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <title>Quiz app</title>
+  </head>
+  <body>
+    <!-- top section -->
+    <div class="intro py-3 bg-white text-center">
+      <div class="container">
+        <h2 class="toph2text text-primary display-3 my-5">quiz App</h2>
+      </div>
+    </div>
+
+    <!-- result section -->
+    <div class="result-sc text-center d-none py-4">
+      <div class="container">
+        <h2 class="resultdisplay text-primary display-4">score 0%</h2>
+      </div>
+    </div>
+
+    <!-- quiz section -->
+    <div class="quiz py-4 bg-success">
+      <div class="container">
+        <h2 class="my-5 text-white">list of questions ..</h2>
+      </div>
+
+      <form class="quiz-form text-light">
+        <div class="my-5">
+          <p class="lead font-weight-normal">
+            1) In java try block is followed by any block ?
+          </p>
+          <!-- option1 -->
+          <div class="form-check my-2 text-white">
+            <input type="radio" name="q1" value="A" checked />
+            <label class="form-check-label">
+              No try block does not follow any blocks
+            </label>
+          </div>
+          <!-- option2 -->
+          <div class="form-check my-2 text-white">
+            <input type="radio" name="q1" value="B" />
+            <label class="form-check-label">
+              yes try block should be followed by catch or finally block
+            </label>
+          </div>
+        </div>
+
+        <!-- QUESTION -2 -->
+
+        <div class="my-5">
+          <p class="lead font-weight-normal">
+            2) In java OBJECTS are stored in heap or stack?
+          </p>
+          <!-- option1 -->
+          <div class="form-check my-2 text-white">
+            <input type="radio" name="q2" value="A" checked />
+            <label class="form-check-label"> stack </label>
+          </div>
+          <!-- option2 -->
+          <div class="form-check my-2 text-white">
+            <input type="radio" name="q2" value="B" />
+            <label class="form-check-label"> heap </label>
+          </div>
+        </div>
+
+        <!-- QUESTION-3 -->
+        <div class="my-5">
+          <p class="lead font-weight-normal">
+            3) In java Markar Interface defines
+          </p>
+          <!-- option1 -->
+          <div class="form-check my-2 text-white">
+            <input type="radio" name="q3" value="A" checked />
+            <label class="form-check-label">
+              Interface cantain incomplete methods</label
+            >
+          </div>
+          <!-- option2 -->
+          <div class="form-check my-2 text-white">
+            <input type="radio" name="q3" value="B" />
+            <label class="form-check-label"> Empty Interface </label>
+          </div>
+        </div>
+        <!-- 
+        QUESTION 4 -->
+        <div class="my-5">
+          <p class="lead font-weight-normal">
+            4) In java FINALLY method is called only once
+          </p>
+          <!-- option1 -->
+          <div class="form-check my-2 text-white">
+            <input type="radio" name="q4" value="A" checked />
+            <label class="form-check-label"> No</label>
+          </div>
+          <!-- option2 -->
+          <div class="form-check my-2 text-white">
+            <input type="radio" name="q4" value="B" />
+            <label class="form-check-label"> Yes </label>
+          </div>
+        </div>
+        <div class="text-center">
+          <input type="submit" class="btn btn-light" />
+        </div>
+      </form>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
